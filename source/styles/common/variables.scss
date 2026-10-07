@@ -1,1 +1,43 @@
 /* здесь используйте глобальные переменные */
+
+$min-sm: 320px;
+$min-md: 768px;
+$min-lg: 990px;
+$min-xl: 1220px;
+$min-xxl: 1440px;
+
+$max-sm: $min-sm - 0.02px;
+$max-md: $min-md - 0.02px;
+$max-lg: $min-lg - 0.02px;
+$max-xl: $min-xl - 0.02px;
+$max-xxl: $min-xxl - 0.02px;
+
+$container-offset: 20px;
+$container-offset-tablet: 30px;
+$container-offset-desktop: 110px;
+$max-width-container: 1220px;
+
+:root {
+  --basic-font-family: "Lato", arial;
+  --title-font-family: "Oswald", impact;
+  --accent-background-1: #68b738;
+  --accent-background-2: rgba(105, 183, 56, 0.85);
+  --basic-background: #ffffff;
+  --second-background: #f2f2f2;
+  --text-color-1: #444444;
+  --text-color-2: #111111;
+  --text-color-3: #222222;
+  --title-color: #000000;
+  --text-color-background: #ffffff;
+  --icon-background: #68b738;
+  --icon-color-1: #000000;
+  --icon-color-2: #666666;
+  --icon-color-3: #ffffff;
+  --button-background-submit: #68b738;
+  --button-background-submit-hover: #5eaa2f;
+  --button-color: #ffffff;
+  --button-color-active: rgba(255, 255, 255, 0.3);
+  --button-background-second: #f2f2f2;
+  --button-background-second-hover: #ebebeb;
+  --button-color-second: #444444;
+}

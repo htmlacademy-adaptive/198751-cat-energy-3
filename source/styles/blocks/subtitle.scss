@@ -1,0 +1,13 @@
+.subtitle {
+  margin-top: 0;
+  font-family: var(--title-font-family, "Oswald"), sans-serif;
+
+  &--big {
+    line-height: 1;
+    text-transform: uppercase;
+
+    @media (min-width: $min-md) {
+      font-size: 20px;
+    }
+  }
+}

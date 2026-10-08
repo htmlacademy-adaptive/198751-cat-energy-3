@@ -13,8 +13,7 @@
   }
 }
 
-
-.header:not(.no-js) nav {
+.nav .header:not(.no-js) & {
   @media (max-width: $max-md) {
     top: 100%;
     position: absolute;
@@ -31,7 +30,6 @@
     }
   }
 }
-
 
 .nav__list {
   margin: 0;
